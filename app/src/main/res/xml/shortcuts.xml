@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <shortcut
+        android:shortcutId="NewFragment"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/new_notification"
+        android:shortcutLongLabel="@string/create_new_notification"
+        android:shortcutDisabledMessage="@string/new_notification_sortcut_disabled"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="navapp://definex.com/definex"/>
+
+    </shortcut>
+
+</shortcuts>
